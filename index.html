@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+        <title>BPMN-Hilfetool</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+    <header id="kopfbereich">
+        <h1>BPMN-Hilfetool</h1>
+    </header>
+
+    <nav id="navigation" aria-label="Ansicht auswählen">
+
+        <button id="btn-diagramm" class="nav-button" type="button" aria-pressed="true">
+            Diagramm
+        </button>
+
+        <button id="btn-symbole" class="nav-button" type="button" aria-pressed="false">
+            Symbolübersicht
+        </button>
+
+    </nav>
+
+    <main id="hauptbereich">
+
+        <div id="ansichten">
+
+            <section id="diagramm">
+                <h2>BPMN-Demonstrationsdiagramm</h2>
+            </section>
+
+            <section id="symbolbereich" hidden>
+                <h2>Symbolübersicht</h2>
+        
+                <button class="symbol" title="startereignis">
+                    Startereignis
+                </button>
+        
+                <button class="symbol" title="endereignis">
+                    Endereignis
+                </button>
+        
+                <button class="symbol" title="exklusives gateway">
+                    Exklusives Gateway
+                </button>
+            </section>
+
+        </div>
+
+        <section id="erklaerung">
+            <h2>Element-Erklärung</h2>
+            <p>Wähle ein BPMN-Element aus.</p>
+
+            <div class="erklaerung-inhalt">
+                <h3>Name</h3>
+                <p>Noch kein Inhalt ausgewählt</p>
+                <h3>Bedeutung</h3>
+                <p>Noch kein Inhalt ausgewählt</p>
+                <h3>Verwendung</h3>
+                <p>Noch kein Inhalt ausgewählt</p>
+            </div>
+
+        </section>
+
+    </main>
+    
+    </body> 
+</html>
